@@ -2,14 +2,13 @@ version: "2.2"
 
 services: 
    db:
-     image: bairav/sql_db
+     image: selmaleathem/sql_db
      ports:
        - "30306:3306"
      container_name: url-tracker
    webapi:
-     image: bairav/urlshortener_app2
+     image: selmaleathem/urlshortener_app2
      ports:
        - "8080:8080"
      links:
         - db
-  
