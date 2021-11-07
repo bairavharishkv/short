@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+
+body {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	position: relative;
+}
+
+/** Logo **/
+
+div.container{
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	background-color: #551a8b;
+	opacity: 0.5;
+}
+
+span.container-font{
+   color: #ffffff; 
+   font-family: "Roboto", helvetica, arial, sans-serif; 
+   font-size: 60px; 
+    font-weight: 700;  
+}
+
+/** buttons that link to other pages **/
+
+button.home-back {
+	font-family: "Roboto", helvetica, arial, sans-serif; 
+	background-color:  #696969;
+	font-size: 18px;
+	font-weight: 400;
+	color:#A2CEFF;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px 10px 10px 10px;	
+	text-align: center;
+ }
+
+
+/** table title **/
+
+span.shortUrl{
+    color:#428bca;
+    font-family: "Roboto", helvetica, arial, sans-serif;  
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/** table **/
+ 
+ .table-fill {
+  border-radius:3px;
+  border-collapse: collapse;
+  margin: auto;
+  padding:5px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+th {
+  color: #428bca;
+  background: #ffb3ba;
+  border: 1px solid black;  
+  font-family: "Roboto", helvetica, arial, sans-serif; 
+  font-size:18px;
+  font-weight: 400;
+  padding:24px;
+  text-align:left;
+  vertical-align:middle;
+}
+
+td {
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-family: "Roboto", helvetica, arial, sans-serif; 
+  color: #428bca;
+  font-size:16px;
+  font-weight: 400;
+  border-right: 1px solid black;
+  border-left: 1px solid black;  
+}
+

@@ -1,0 +1,7 @@
+# Java MVC application to run on tomcat server
+FROM tomcat:8.5
+
+MAINTAINER bairav
+
+# Copy the following directory
+COPY short.war /usr/local/tomcat/webapps/short.war

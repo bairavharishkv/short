@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	position: relative;
+}
+
+/** Logo **/
+
+div.container{
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	background-color: #551a8b;
+	opacity: 0.5;
+}
+
+span.container-font{
+   color: #ffffff; 
+   font-family: "Roboto", helvetica, arial, sans-serif; 
+   font-size: 60px; 
+    font-weight: 700;
+   
+}
+
+/** instructions to use web app **/
+
+span.description{
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 14px;
+	font-weight: 400;
+	color: #428bca;
+}
+
+/** the submit button and text-box to enter a long URL **/
+
+entryrow div{
+	position: relative;
+	top: 50%;
+ }
+
+
+.enterLongUrl input {
+	display: inline-block;
+	height: 100px;
+	width: 500px;
+	background-color: white;
+	vertical-align: text-top; 
+	border: 1px solid #428bca;
+	margin-left: 0;
+	padding: 0;
+	color:#428bca;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 16px;
+	font-weight: 400;
+	border-radius: 10px 0px 0px 10px;
+  }
+
+  .enterLongUrl input::-webkit-input-placeholder {
+	color:#428bca;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 16px;
+	font-weight: 400;
+  }
+  .enterLongUrl input::-moz-placeholder {
+	color:#428bca;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 16px;
+	font-weight: 400;
+  }
+  .enterLongUrl input:-ms-input-placeholder {
+	color:#428bca;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 16px;
+	font-weight: 400;
+  }
+  .enterLongUrl input::placeholder {
+	color:#428bca;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 16px;
+	font-weight: 400;
+  }
+  
+.enterLongUrl input[type="submit"] {
+	display: inline-block;
+	background-color: #ffb3ba;
+	border: 1px solid #ffb3ba;
+	border: 0;
+	height: 100px;
+	width: 250px;
+	white-space: normal;
+
+	color: #428bca;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 20px;
+	font-weight: 400;
+	/*vertical-align: text-top;*/
+	border-radius: 0px 10px 10px 0px;	
+	text-align: center;
+}
+
+/** format the short URL that is returned **/
+
+span.shortUrl{
+	color:#696969;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/** links to other parts of the website are buttons in the form of tiles **/
+
+div.hold-tiles{
+	text-align: center;
+}
+
+button.font-style {
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 20px;
+	font-weight: 400;
+	color: #428bca;
+ }
+
+ button.square-tile{
+	display: inline-block;
+	border: 0;
+	height: 150px;
+	width: 350px;
+	white-space: normal;
+	vertical-align: text-top;
+	border-radius: 5px;	
+	box-shadow: 5px 10px #888888;
+}
+
+button.green-tile{
+	background-color: #baffc9;
+}
+
+button.blue-tile{
+	background-color: #bae1ff;
+}
+
+span.small-description{
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 12px;
+	font-weight: 400;
+	color: #428bca;
+}
+

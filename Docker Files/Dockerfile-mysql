@@ -1,0 +1,15 @@
+# Make MySql image 
+FROM mysql:5.7
+
+ENV MYSQL_ROOT_PASSWORD=admin
+ENV MYSQL_DATABASE=url_tracker
+ENV MYSQL_USER=admin
+ENV MYSQL_PASSWORD=admin
+ENV MYSQL_ROOT_HOST=%
+
+MAINTAINER SelmaLeathem
+
+# Copy the following startup sql script
+COPY mysqlscript.sql /docker-entrypoint-initdb.d/
+
+

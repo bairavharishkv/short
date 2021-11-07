@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	position: relative;
+}
+
+/** Logo **/
+
+div.container{
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	background-color: #551a8b;
+	opacity: 0.5;
+}
+
+span.container-font{
+   color: #ffffff; 
+   font-family: "Roboto", helvetica, arial, sans-serif; 
+   font-size: 40px; 
+    font-weight: 700;
+   
+}
+
+/** the container that holds instructions for shortening a URL **/
+
+div.shortener{
+	width: 40%;
+	/*height: 200px;*/
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	background-color: #ffb3ba;
+	
+	color:black;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 14px;
+	font-weight: 400;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/** small white boxes contain example syntax **/
+
+div.white{
+	background-color: white;
+	width: 50%;
+	border: 1px solid black;
+}
+
+/** the container that holds instructions for obtaining statistics **/
+
+div.statistics{
+	width: 40%;
+	/*height: 200px;*/
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+	background-color: #bae1ff;
+	
+	color:black;
+	font-family: "Roboto", helvetica, arial, sans-serif;  
+	font-size: 14px;
+	font-weight: 400;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/** button that links to home page **/
+
+button.home {
+	font-family: "Roboto", helvetica, arial, sans-serif; 
+	background-color:  #696969;
+	font-size: 18px;
+	font-weight: 400;
+	color:#A2CEFF;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px 10px 10px 10px;	
+	text-align: center;
+ }
